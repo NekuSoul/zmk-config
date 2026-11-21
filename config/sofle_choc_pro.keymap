@@ -46,11 +46,11 @@
 
         alternate_layer {
             bindings = <
-&kp GRAVE   &kp F1  &kp F2         &kp F3         &kp F4    &none                                     &kp KP_NUM    &kp KP_N7    &kp KP_N8        &kp KP_N9      &kp KP_DIVIDE    &none
-&trans      &kp F5  &kp F6         &kp F7         &kp F8    &none            &kp SCROLLLOCK                         &kp KP_N4    &kp KP_NUMBER_5  &kp KP_N6      &kp KP_MULTIPLY  &none
-&kp RSHIFT  &kp F9  &kp F10        &kp F11        &kp F12   &kp PAUSE_BREAK  &kp CAPSLOCK                           &kp KP_N1    &kp KP_N2        &kp KP_N3      &kp KP_MINUS     &kp KP_ENTER
-&kp RCTRL   &none   &none          &none          &none     &kp INSERT       &kp PRINTSCREEN  &none   &kp KP_CLEAR  &kp KP_N0    &kp KP_DOT       &kp KP_COMMA   &kp KP_PLUS      &kp C_AC_DEL
-                    &kp BACKSPACE  &kp RIGHT_ALT  &kp RGUI  &trans           &trans           &tog 2  &kp HOME      &kp PAGE_UP  &kp END          &kp PAGE_DOWN
+&kp GRAVE   &kp F1          &kp F2         &kp F3         &kp F4    &kp HOME                                   &kp KP_NUM    &kp KP_N7    &kp KP_N8        &kp KP_N9      &kp KP_DIVIDE    &kp INSERT
+&trans      &kp F5          &kp F6         &kp F7         &kp F8    &kp END        &kp SCROLLLOCK                            &kp KP_N4    &kp KP_NUMBER_5  &kp KP_N6      &kp KP_MULTIPLY  &kp PAUSE_BREAK
+&kp RSHIFT  &kp F9          &kp F10        &kp F11        &kp F12   &kp PAGE_UP    &kp CAPSLOCK                              &kp KP_N1    &kp KP_N2        &kp KP_N3      &kp KP_MINUS     &kp KP_ENTER
+&kp RCTRL   &kp LEFT_ARROW  &kp UP_ARROW   &kp RIGHT      &kp DOWN  &kp PAGE_DOWN  &kp PRINTSCREEN  &kp K_APP  &kp KP_CLEAR  &kp KP_N0    &kp KP_DOT       &kp KP_COMMA   &kp KP_PLUS      &kp C_AC_DEL
+                            &kp BACKSPACE  &kp RIGHT_ALT  &kp RGUI  &kp K_MENU     &trans           &tog 2     &kp HOME      &kp PAGE_UP  &kp END          &kp PAGE_DOWN
             >;
 
             label = "alternate";
